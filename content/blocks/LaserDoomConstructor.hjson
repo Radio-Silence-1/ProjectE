@@ -1,0 +1,26 @@
+type: UnitFactory
+name: Laser Constructor
+description: Lasers Begin Here...
+health: 300
+size: 3
+requirements: [
+copper/100
+lead/200
+circut/15
+metaglass/10
+silicon/200
+]
+plans: [
+    {
+        unit: teir1laser
+        requirements: [silicon/50
+                       circut/20]
+        time: 100
+    }
+]
+
+
+category: units
+consumes: {
+    power: 4.5
+}

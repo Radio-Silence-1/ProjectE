@@ -1,0 +1,39 @@
+type: PowerTurret
+name: T1 Laser Turret
+targetAir: true
+targetGround: true
+health: 200
+size: 3
+inaccuracy: 0
+reloadTime: -1
+shots: 3
+recoilAmount: -1
+ammoUseEffect: casing3
+shootCone: 1
+rotateSpeed: 1000
+range: 3460
+consumes: {
+  power: 54
+}
+shootType: {
+    speed: 10
+    damage: 600
+    width: 16
+    height: 210
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    status: burning
+    ammoMultiplier: 20
+    frontColor: 91c3ff
+    backColor: 91c3ff
+}
+requirements: [
+  titanium/400
+  copper/1200
+  graphite/550
+  thorium/500
+  plastanium/105
+  surge-alloy/400
+]
+category: turret
+shootSound: bigshot
