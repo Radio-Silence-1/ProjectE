@@ -1,0 +1,66 @@
+type: mech
+name: Laser Tier 10 (WIP)
+controller: BuilderAI
+rotateShooting: true
+faceTarget: true
+engineOffset: 12
+engineSize: 2.5
+lowAltitude: true
+lightColor: 6f7fe8
+description:"The First, Of Many Lasers"
+speed: 0.5
+canDrown: true
+canBoost: true
+targetable:false
+mineTier:3
+buildSpeed:2
+itemCapacity: 50
+commandLimit: 10
+hitSize: 10
+accel: 10
+flying: false
+health: 30
+armor: 1
+weapons: [
+  {
+    name: reckless-laser
+    mirror: true
+    x: 4
+    y: 0
+    shootY: 4
+    reload: 0
+    firstShotDelay: 45
+    shootStatus: shielded
+    shootStatusDuration: 45
+    shootSound: laser
+    shake: 1.4
+    bullet: {
+      type: LaserBulletType
+      length: 1000 
+      width: 350
+      damage: 200
+      colors: [6f7fe840, 6f7fe8, ffffff]
+      lightColor: 6f7fe8
+      collidesTeam: true
+      healPercent: 0
+      shootEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            line: true
+            particles: 100
+            length: -10
+            baseLength: 10
+            strokeFrom: 0
+            strokeTo: 1.4
+            lenFrom: 0
+            lenTo: 400
+            colorFrom: ff0000
+            colorTo: ff9999
+          }
+        ]
+      }
+    }
+  }
+]
