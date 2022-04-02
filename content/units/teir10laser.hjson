@@ -55,7 +55,7 @@ weapons: [
             strokeFrom: 0
             strokeTo: 1.4
             lenFrom: 0
-            lenTo: 400
+            lenTo: 4
             colorFrom: ff0000
             colorTo: ff9999
           }
