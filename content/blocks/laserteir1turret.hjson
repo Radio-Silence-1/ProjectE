@@ -28,12 +28,10 @@ shootType: {
     backColor: 91c3ff
 }
 requirements: [
-  titanium/400
-  copper/1200
-  graphite/550
-  thorium/500
-  plastanium/105
-  surge-alloy/400
+  titanium/200
+  copper/100
+  circut/120
+  silicon/50
 ]
 category: turret
 shootSound: bigshot
