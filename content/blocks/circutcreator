@@ -1,0 +1,51 @@
+type : GenericCrafter
+name : Circut Creator 
+description : "Makes Circuts"
+outputItem : {
+ item : circut
+ amount : 1
+}
+health : 440
+craftTime : 10
+researchCostMultiplier:0.5
+itemCapacity: 100
+size : 3
+hasPower : true
+buildCostMultiplier:0.5
+hasLiquids : false
+hasItems : true
+updateEffect : pulverize
+consumes : {
+ power : 7
+items: {
+      items: [
+        {
+          item: silicon
+          amount: 50
+        }
+        {
+         item: copper
+          amount: 50
+        }
+        {
+         item: metaglass
+          amount: 20
+        }
+       ]
+      }
+     }
+  requirements: [
+    {
+      item: copper
+      amount: 250
+    }
+    {
+      item: lead
+      amount: 250
+    }
+    {
+      item: graphite
+      amount: 20
+    }
+  ]
+  category: crafting
